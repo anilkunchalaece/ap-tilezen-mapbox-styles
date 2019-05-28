@@ -21,10 +21,9 @@
     "tilezen"
   ],
   "optionalDependencies": {
-    "@mapbox/maki": "4.0.0"
+    "@mapbox/maki": "^4.0.0"
   },
   "devDependencies": {
-    "@mapbox/spritezero-cli": "2.1.0",
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -46,7 +45,12 @@
     "webpack": "3.8.1",
     "yargs": "^10.0.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mapbox/spritezero": "^6.1.1",
+    "@mapbox/spritezero-cli": "^2.1.0",
+    "maki": "^2.1.0",
+    "mapbox-gl": "^1.0.0"
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"

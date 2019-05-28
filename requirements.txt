@@ -1,0 +1,12 @@
+install maki
+npm install maki
+npm install @mapbox/maki
+
+install spritezero
+npm install @mapbox/spritezero
+
+install spritezero-cli
+npm install @mapbox/spritezero-cli
+
+check nvm is installed
+and install node8.9.0 as specified in docs
